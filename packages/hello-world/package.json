@@ -22,6 +22,8 @@
     "build": "tsc",
     "build:watch": "tsc --watch",
     "clean": "rimraf dist",
+    "lint": "npm run lint:eslint",
+    "lint:eslint": "eslint .",
     "test": "npm run test:dev && npm run test:prod",
     "test:dev": "web-test-runner",
     "test:dev:watch": "web-test-runner --watch",

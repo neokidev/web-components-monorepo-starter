@@ -10,6 +10,9 @@
     "clean": {
       "dependsOn": ["^clean"]
     },
+    "lint": {
+      "dependsOn": ["^lint"]
+    },
     "test": {
       "dependsOn": ["^test"]
     }
