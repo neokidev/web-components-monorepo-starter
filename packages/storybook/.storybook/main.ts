@@ -22,5 +22,11 @@ const config: StorybookConfig = {
   docs: {
     autodocs: 'tag',
   },
+  refs: {
+    react: {
+      title: 'React',
+      url: 'http://localhost:7007',
+    },
+  },
 }
 export default config
