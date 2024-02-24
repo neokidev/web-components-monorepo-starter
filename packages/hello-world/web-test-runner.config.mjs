@@ -1,13 +1,4 @@
-import { esbuildPlugin } from '@web/dev-server-esbuild'
+import baseConfig from '@web-components-monorepo-starter/base-configs/web-test-runner.config.mjs'
 
 /** @type {import('@web/test-runner').TestRunnerConfig} */
-export default {
-  files: 'src/**/*.test.ts',
-  nodeResolve: true,
-  plugins: [
-    esbuildPlugin({
-      ts: true,
-      tsconfig: './tsconfig.json',
-    }),
-  ],
-}
+export default baseConfig
