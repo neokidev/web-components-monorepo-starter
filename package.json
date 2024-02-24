@@ -8,6 +8,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "turbo lint",
+    "lint:eslint:fix": "turbo lint:eslint:fix",
     "quality": "npm run format:check && npm run lint && npm run type-check && npm run test",
     "test": "turbo test",
     "type-check": "turbo type-check",
