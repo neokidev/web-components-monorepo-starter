@@ -16,7 +16,7 @@
     "storybook:react:no-open": "cd packages/storybook-react && npm run storybook -- --no-open",
     "test": "turbo test",
     "type-check": "turbo type-check",
-    "postinstall": "lefthook install"
+    "prepare": "lefthook install"
   },
   "devDependencies": {
     "lefthook": "^1.6.1",
