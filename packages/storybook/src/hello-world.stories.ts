@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/web-components'
 import { html } from 'lit'
+
 import '@web-components-monorepo-starter/hello-world'
 
 interface HelloWorldProps {
