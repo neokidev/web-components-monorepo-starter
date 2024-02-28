@@ -1,5 +1,5 @@
 import { createComponent } from '@lit/react'
-import React from 'react'
+import * as React from 'react'
 
 import { HelloWorld as HelloWorldWC } from '@web-components-monorepo-starter/hello-world'
 
